@@ -6514,6 +6514,7 @@ GameObject:
   - component: {fileID: 1648680178}
   - component: {fileID: 1648680182}
   - component: {fileID: 1648680181}
+  - component: {fileID: 1648680183}
   m_Layer: 6
   m_Name: Red Player
   m_TagString: Player
@@ -6528,7 +6529,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1648680177}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e47b59a0cce20924c81a789fd56b4a6c, type: 3}
   m_Name: 
@@ -6639,6 +6640,23 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &1648680183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1648680177}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef155ae7fe690ab4f939ebff61804272, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stepSize: 1
+  upKey: 273
+  downKey: 274
+  rightKey: 275
+  leftKey: 276
 --- !u!1001 &1666194815
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7378,6 +7396,7 @@ GameObject:
   - component: {fileID: 2049525269}
   - component: {fileID: 2049525268}
   - component: {fileID: 2049525273}
+  - component: {fileID: 2049525274}
   m_Layer: 6
   m_Name: Blue Player
   m_TagString: Player
@@ -7503,6 +7522,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
+--- !u!114 &2049525274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2049525267}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef155ae7fe690ab4f939ebff61804272, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stepSize: 1
+  upKey: 119
+  downKey: 115
+  rightKey: 100
+  leftKey: 97
 --- !u!1001 &2073991363
 PrefabInstance:
   m_ObjectHideFlags: 0
